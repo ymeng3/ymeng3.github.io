@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Yang (Justin) Meng — CV</title>
+<style>
+  @page { size: letter; margin: 0.5in 0.7in 0.4in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 10.2pt;
+    line-height: 1.32;
+    color: #000;
+  }
+  a { color: #000; text-decoration: none; }
+
+  /* Header */
+  .name {
+    font-size: 17pt;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .contact {
+    text-align: center;
+    font-size: 9.8pt;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+  .contact .dot { margin: 0 5px; }
+
+  /* Sections */
+  h2 {
+    font-size: 10.5pt;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+
+  .entry { margin-bottom: 8px; page-break-inside: avoid; }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+  }
+  .row .left { font-weight: 700; }
+  .row .right { font-size: 9.8pt; white-space: nowrap; }
+  .detail { font-style: italic; }
+  .line { margin-bottom: 3px; }
+  .role { font-weight: 400; }
+  .note { font-size: 9.8pt; font-style: italic; white-space: nowrap; }
+
+  /* Publications */
+  .pub { margin-bottom: 5px; page-break-inside: avoid; }
+  .pub-note { font-size: 9.5pt; font-style: italic; margin-bottom: 4px; }
+  .pub-title { font-weight: 700; }
+  .pub-authors { font-size: 10pt; }
+  .pub-authors .me { font-weight: 700; }
+  .pub-venue { font-style: italic; font-size: 10pt; }
+  .pub-venue .link { font-style: normal; }
+
+  ul { margin: 2px 0 0 16px; }
+  li { margin-bottom: 2px; }
+
+  .kv { margin-bottom: 3px; }
+  .kv .label { font-weight: 700; }
+</style>
+</head>
+<body>
+
+  <div class="name">Yang (Justin) Meng</div>
+  <div class="contact">
+    ymeng3@uchicago.edu
+  </div>
+
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="row"><span class="left">The University of Chicago, IL</span><span class="right">Sept. 2025 – Present</span></div>
+    <div class="row"><span class="detail">Ph.D. in Computer Science</span><span class="note">Advisor: Prof. Yuxin Chen</span></div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="left">The University of Chicago, IL</span><span class="right">Oct. 2021 – June 2025</span></div>
+    <div class="detail">B.S. in Computer Science, Mathematics</div>
+  </div>
+
+  <h2>Research Interests</h2>
+  <p>
+    My research interests lie broadly in Continual Learning, Active Learning, and Reinforcement Learning,
+    with applications to Scientific Domains and Large Language Models. I am interested in developing
+    learning systems that continuously
+    acquire, transfer, and refine knowledge through interaction and experience, with the long-term goal of
+    building more capable, adaptive, and autonomous AI systems.
+  </p>
+
+  <h2>Publications</h2>
+
+  <div class="pub">
+    <div class="pub-title">Rethinking Transfer in Continual Learning: A Replay-Based Realisation</div>
+    <div class="pub-authors"><span class="me">Yang Meng</span>, Zhenya Liu, Zhuokai Zhao<sup>&dagger;</sup>, Yuxin Chen<sup>&dagger;</sup>.</div>
+    <div class="pub-venue">Preprint</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Active Feature Acquisition by Distilling an Oracle Teacher</div>
+    <div class="pub-authors"><span class="me">Yang Meng</span>, Zixin Ding, Robert L. Grossman, Yuxin Chen.</div>
+    <div class="pub-venue">Preprint</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">World Model as High-Fidelity Simulators of Scientific Processes</div>
+    <div class="pub-authors"><span class="me">Yang Meng</span>, Sherry Yang.</div>
+    <div class="pub-venue">Preprint</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Accelerating PDE Surrogates via RL-Guided Mesh Optimization</div>
+    <div class="pub-authors"><span class="me">Yang Meng</span>, Ruoxi Jiang, Zhuokai Zhao, Chong Liu, Rebecca Willett, Yuxin Chen.</div>
+    <div class="pub-venue">AISTATS 2026 (Poster)</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Personalized Incentive Alignment: Correcting Utility-Driven Selection Bias in A/B Tests</div>
+    <div class="pub-authors">Jiachun Li, <span class="me">Yang Meng</span>, David Simchi-Levi, Chonghuan Wang.</div>
+    <div class="pub-venue">AISTATS 2026 (Poster)</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">CRF-based Recognition of Invasive Fungal Infection Concepts in CHIFIR Clinical Reports</div>
+    <div class="pub-authors"><span class="me">Yang Meng</span>, Vlada Rozova, Karin Verspoor.</div>
+    <div class="pub-venue">ALTA 2023 (Short Paper)</div>
+  </div>
+
+  <h2>Research Experience</h2>
+  <div class="line">
+    <div class="row"><span><span class="role">Research Assistant</span> for Professor Yuxin Chen (UChicago CS)</span><span class="right">Oct. 2024 – Present</span></div>
+  </div>
+  <div class="line">
+    <div class="row"><span><span class="role">Research Intern</span> for Professor David Simchi-Levi (MIT IDSS)</span><span class="right">Feb. 2024 – Feb. 2025</span></div>
+  </div>
+  <div class="line">
+    <div class="row"><span><span class="role">Research Assistant</span> for Professor Haihao Lu (MIT Sloan)</span><span class="right">Aug. 2023 – Mar. 2024</span></div>
+  </div>
+  <div class="line">
+    <div class="row"><span><span class="role">Research Intern</span> for Professor Karin Verspoor (RMIT CS)</span><span class="right">May 2023 – Oct. 2023</span></div>
+  </div>
+
+  <h2>Professional Experience</h2>
+  <div class="entry">
+    <div class="row"><span class="left">Banxa Crypto</span><span class="right">Apr. 2023 – Aug. 2023</span></div>
+    <div class="detail">Software Engineer Intern</div>
+    <ul>
+      <li>Built and maintained web application features in JavaScript and Vue3 for cryptocurrency on/off ramps.</li>
+      <li>Implemented and optimized third-party integrations, streamlining payment processing workflows.</li>
+    </ul>
+  </div>
+
+  <h2>Academic Services</h2>
+  <div class="kv"><span class="label">Conference Reviewer:</span> AISTATS 2026, NeurIPS 2026</div>
+  <div class="kv"><span class="label">Journal Reviewer:</span> IEEE TNNLS, JMLR</div>
+
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #333;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+  background: #fff;
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.header {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  margin-bottom: 36px;
+}
+
+.header-photo img {
+  width: 215px;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.header-info h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #111;
+}
+
+.header-info .subtitle {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.header-info .links {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.header-info .links a {
+  margin-right: 12px;
+}
+
+.header-info .links .sep {
+  color: #aaa;
+  margin-right: 12px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 32px;
+}
+
+section h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 12px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bio {
+  font-size: 15px;
+}
+
+.bio p {
+  margin-bottom: 10px;
+}
+
+/* Publications */
+.pub-note {
+  font-size: 13px;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.pub-list {
+  list-style: none;
+}
+
+.pub-list li {
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+.pub-title {
+  font-weight: 600;
+  color: #111;
+}
+
+.pub-authors {
+  color: #444;
+}
+
+.pub-authors .me {
+  font-weight: 600;
+}
+
+.pub-venue {
+  font-style: italic;
+  color: #666;
+}
+
+.pub-links {
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+.pub-links a {
+  margin-right: 8px;
+}
+
+/* Service */
+.service-list {
+  list-style: none;
+  font-size: 15px;
+}
+
+.service-list li {
+  margin-bottom: 6px;
+}
+
+.service-role {
+  font-weight: 600;
+  color: #111;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-photo img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .header-info .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  body {
+    padding: 24px 16px 40px;
+  }
+}

@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Editor / tooling
+.claude/
+
+# Source resume — contains personal phone number, must not be published
+resume-justin-1-11-26_副本.pdf
+*.docx
+
+# Superseded photo (site uses profilev2.jpg)
+profile.jpg
